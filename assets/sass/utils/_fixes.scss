@@ -1,0 +1,23 @@
+/*
+  Collection of Fixes for browsers and stuff
+  @author: dcliment
+  version: 1.0.0
+*/
+body{
+  margin: 0;
+  padding: 0;
+}
+/* flex fixes Maybe IE, or maybe Firefox can't remember*/
+* {
+  flex-shrink: 1;
+}
+
+/* Firefox input fix */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}

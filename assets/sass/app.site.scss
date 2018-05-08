@@ -1,0 +1,19 @@
+@import "utils/fixes";
+@import "utils/utils";
+@import "utils/variables";
+
+html, body{
+  height: 100%;
+}
+
+/*
+  MAIN
+*/
+body{
+  //font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width : 600px) {
+
+
+}

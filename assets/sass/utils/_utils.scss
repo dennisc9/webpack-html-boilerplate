@@ -1,0 +1,17 @@
+@import "variables";
+
+button.disabled{
+  pointer-events: none;
+}
+
+.hidden {
+  display: none;
+
+  &.on {
+    display: block;
+  }
+}
+
+.blue{
+  color: $color-primary-dark-blue;
+}

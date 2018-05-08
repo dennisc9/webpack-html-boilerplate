@@ -1,0 +1,76 @@
+ # MAC OSx generated files #
+##########################
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+ ## Windows #
+############
+ehthumbs.db
+Thumbs.db
+
+ # Node.js #
+###########
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.pid.lock
+*.gz
+pids
+results
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# jest test coverage
+.jest_coverage
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+ ## Sass #
+#########
+.sass-cache
+
+ ## Editor dir and files #
+#########################
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+ ## Distribution files #
+#######################
+dist/
+
+ ## Webstorm #
+####################### 
+.idea/
